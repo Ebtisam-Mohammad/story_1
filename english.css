@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+.continer{
+  justify-content: center;
+text-align: center;
+}
+
+.text{
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 15%;
+    font-size:50px;
+    color: white;
+
+}
+
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.latter-1{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 2s;
+  
+}
+.latter-2{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 3s;
+    position: relative;
+}
+.latter-3{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+}
+.latter-4{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 5s;
+    position: relative;
+}
+.latter-5{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 6s;
+    position: relative;
+}
+.latter-6{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 7s;
+    position: relative;
+}
+
+.latter-7{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 8s;
+    position: relative;
+}

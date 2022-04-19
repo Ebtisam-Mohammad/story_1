@@ -1,0 +1,139 @@
+body{
+  text-align: center;
+  font-family: monospace;
+  /* background: linear-gradient(135deg, #9bcef8 0%, #53a0fe 50%, #fdd1b7 100%); */
+}
+.p{
+  border: 2px solid whitesmoke;
+  border-radius: 30px;
+  background-color: violet;
+  color: blue;
+  font-weight: bold;
+}
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: whitesmoke;
+    overflow: auto;
+    font-family:Avantgarde;
+    position: fixed;
+    top: 0;
+    font-weight: bold;
+
+  }
+
+  /* Navbar links */
+  .navbar a {
+    float:inherit;
+    text-align: center;
+    padding: 12px;
+    color:slateblue;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: rgb(224, 222, 221);
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    /* background-color: #f7e4dc; */
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  padding-top: 30px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  grid-column: 1 / 3;
+  grid-row: 1;
+  border: 7px solid white;
+  border-radius: 30px;
+  /* box-shadow: rgb(175, 22, 175); */
+  border-top: 20px;
+  padding-bottom: 50px;
+
+  
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: crimson;
+}
+
+.story1{
+  width: 700px;
+  height: 700px;
+  border: solid whitesmoke;
+  border-radius: 40px;
+}
+.story2{
+  width: 300px;
+  height: 190px;
+}
+
+hr{
+  border: solid whitesmoke;
+}
+
+/* letter */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.continer{
+justify-content: center;
+text-align: center;
+}
+
+.text{
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  /* padding-top: 19%; */
+  font-size:50px;
+  color: white;
+
+}
+
+/* 
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}
+} */
+#letter{
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 2s;
+
+}
+
+.title{
+  color:slateblue;
+  align-items: left;
+  padding-right: 1000px;
+}
+
+/* card */
